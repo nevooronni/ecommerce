@@ -1,0 +1,282 @@
+/*custom css*/
+.navbar {
+  background-color: black;
+  background: transparent;
+  border-color: transparent;
+}
+
+.navbar-text {
+  color: #FCA04B;
+}
+
+#btn {
+  background-color: #F47E3E;
+  color: #FFFFFF;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.page-header {
+  color: #F47E3E;
+  border-color: transparent;
+  position: absolute;
+  top: 100px;
+}
+
+.jumbotron {
+  background-image: url("../img/image6.jpg");
+  height: 800px;
+  margin-bottom: 0px;
+}
+
+#gamer {
+  position: relative;
+  top: 100px;
+  left: 195px;
+  font-size: 130px;
+  font-weight: bold;
+}
+
+#content {
+  background-color: #232124;
+  margin-top: -20px;
+  border-bottom-color: #FFFFFF;
+  height: 600px;
+}
+
+#h1 {
+  margin-top: 100px;
+  color: #F47E3E;
+}
+
+#p {
+  margin-top: 60px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#img {
+  position: relative;
+  top: -230px;
+  left: 650px;
+
+}
+
+#marginb {
+  height: 605px;
+}
+
+#back2 {
+  background-image: url("../img/tabs-bg.jpg");
+  height: 900px;
+}
+
+#center {
+  margin-top: 120px;
+}
+
+.color {
+  color: #FCA04B;
+}
+
+.colorh3 {
+  color: #FFFFFF;
+  display: inline;
+  margin-left: 200px;
+
+}
+
+#borderb {
+  position: relative;
+  top: 50px;
+  left: -80px;
+  border-color: #FFFFFF !important;
+  display: inline;
+  border: solid, #FFFFFF;
+  padding-left: 100px;
+}
+
+#row {
+  position: relative;
+  top: 280px;
+  left: 100px;
+}
+
+#cross-effect {
+  position: relative;
+  top: 70px;
+  left: 200px;
+  height: 5px;
+  width: 730px;
+  background-color: #FFFFFF;
+}
+
+#first {
+  position: relative;
+  top: -160px;
+  left: -200px;
+  background-color: #FFFFFF;
+  height: 488px;
+}
+
+#second {
+  position: relative;
+  top: -648px;
+  left: 135px;
+}
+
+#third {
+  height: 488px;
+  width: 350px;
+  position: relative;
+  top: -1008px;
+  left: 469px;
+  background-color: #FFFFFF;
+}
+
+#button1 {
+  background-color: #232124;
+  position: absolute;
+  top: 2086px;
+  left: 285px;
+  height: 120px;
+  width: 320px;
+}
+
+.pcolor {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #BEBEBE;
+}
+
+#btn2 {
+  position: relative;
+  left: 75px;
+  background-color: #F47E3E;
+  color: #FFFFFF;
+  width: 170px;
+  margin-top: 15px;
+}
+
+#button2 {
+  background-color: #232124;
+  position: absolute;
+  top: 2086px;
+  left: 620px;
+  height: 120px;
+  width: 320px;
+}
+
+#pcolor2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #BEBEBE;
+}
+
+#button3 {
+  background-color: #232124;
+  position: absolute;
+  top: 2086px;
+  left: 954px;
+  height: 120px;
+  width: 320px; 
+}
+
+#col8height {
+  height: 400px;
+}
+
+#platform {
+  margin-top: 5px;
+}
+
+#back1 {
+  margin: 0px;
+}
+
+#back22 {
+  margin-left: 0px;
+}
+
+#back3 {
+  margin: 0px;
+}
+
+#back4 {
+  margin: 0px;
+}
+
+#back5 {
+  margin: 0px;
+}
+
+#margins {
+  color: grey;
+  position: relative;
+  top: 45px;
+  left: -400px;
+}
+
+#form1 {
+  position: relative;
+  top: -10px;
+  left: 690px;
+}
+
+#email {
+  font-size: 18px;
+  height: 50px;
+  width: 450px;
+  color: #FFFFFF;
+  background-color: #010101;
+  border-color: transparent;
+}
+
+#submit {
+  margin-left: 3px;
+  height: 50px;
+  width: 170px;
+  color: #FFFFFF;
+  background-color: #F47E3E;
+}
+
+#footer {
+  background-image: url("../img/image3.jpg");
+  height: 200px;
+  margin-top: 40px;
+}
+
+#info {
+  position: relative;
+  top: 60px;
+  left: 160px;
+  color: #BEBEBE;
+}
+
+#span {
+  color: #F47E3E ;
+}
+
+.social-icons {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 1100px;
+  color: #FFFFFF;
+}
+
+a {
+  margin-left: 9px;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+#cross-effect2 {
+  position: relative;
+  top: 20px;
+  left: 145px;
+  height: 5px;
+  width: 1200px;
+  background-color: #FFFFFF;
+}
