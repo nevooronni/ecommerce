@@ -1,4 +1,8 @@
 /*custom css*/
+
+html {
+  height: 1000px;
+}
 .navbar {
   background-color: black;
   background: transparent;
@@ -13,8 +17,8 @@
   background-color: #F47E3E;
   color: #FFFFFF;
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 20px;
+  right: 80px;
 }
 
 .page-header {
@@ -68,12 +72,15 @@
 }
 
 #back2 {
+
   background-image: url("../img/tabs-bg.jpg");
-  height: 900px;
+  height: 1000px;
+  margin-top: 0px;
 }
 
 #center {
-  margin-top: 120px;
+  margin-top: 0px;
+  padding-top: 120px;
 }
 
 .color {
@@ -90,7 +97,7 @@
 #borderb {
   position: relative;
   top: 50px;
-  left: -80px;
+  left: 90px;
   border-color: #FFFFFF !important;
   display: inline;
   border: solid, #FFFFFF;
@@ -98,15 +105,15 @@
 }
 
 #row {
-  position: relative;
-  top: 280px;
-  left: 100px;
+  position: absolute;
+  top: 1900px;
+  left: 440px;
 }
 
 #cross-effect {
   position: relative;
   top: 70px;
-  left: 200px;
+  left: 370px;
   height: 5px;
   width: 730px;
   background-color: #FFFFFF;
@@ -118,28 +125,36 @@
   left: -200px;
   background-color: #FFFFFF;
   height: 488px;
+  width: 350px;
+  padding-left: 10px;
 }
 
 #second {
+  width: 100px;
   position: relative;
+  background-color: #FFFFFF;
   top: -648px;
   left: 135px;
+  height: 488px;
+  width: 350px;
+  padding-left: 5px;
 }
 
 #third {
   height: 488px;
-  width: 350px;
+  width: 330px;
   position: relative;
-  top: -1008px;
+  top: -1136px;
   left: 469px;
   background-color: #FFFFFF;
+  padding-left: 0px;
 }
 
 #button1 {
   background-color: #232124;
   position: absolute;
-  top: 2086px;
-  left: 285px;
+  top: 2104px;
+  left: 265px;
   height: 120px;
   width: 320px;
 }
@@ -162,8 +177,8 @@
 #button2 {
   background-color: #232124;
   position: absolute;
-  top: 2086px;
-  left: 620px;
+  top: 2104px;
+  left: 596px;
   height: 120px;
   width: 320px;
 }
@@ -177,8 +192,8 @@
 #button3 {
   background-color: #232124;
   position: absolute;
-  top: 2086px;
-  left: 954px;
+  top: 2104px;
+  left: 925px;
   height: 120px;
   width: 320px; 
 }
@@ -219,8 +234,8 @@
 }
 
 #form1 {
-  position: relative;
-  top: -10px;
+  position: absolute;
+  top: 2750px;
   left: 690px;
 }
 
@@ -244,13 +259,13 @@
 #footer {
   background-image: url("../img/image3.jpg");
   height: 200px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 #info {
-  position: relative;
-  top: 60px;
-  left: 160px;
+  position: absolute;
+  top: 2985px;
+  left: 150px;
   color: #BEBEBE;
 }
 
@@ -259,9 +274,8 @@
 }
 
 .social-icons {
-  display: inline-block;
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 2960px;
   left: 1100px;
   color: #FFFFFF;
 }
@@ -273,10 +287,85 @@ a {
 }
 
 #cross-effect2 {
-  position: relative;
-  top: 20px;
+  position: absolute;
+  top: 3015px;
   left: 145px;
   height: 5px;
   width: 1200px;
   background-color: #FFFFFF;
+}
+
+#hiddenSubscribe {
+  position: absolute;
+  top: 2700px;
+  left: 0px;
+  display: none;
+  margin: 0;
+  font-size: 25px;
+  background-color: #F47E3E;
+  width: 1520px;
+  height: 190px;
+  padding-top: 30px;
+}
+
+#subscribe {
+  height: 150px;
+}
+
+#footerc {
+  margin-top: 40px;
+  margin-left: -90px;
+  margin-bottom: 0px;
+}
+
+#email102 {
+  color: #FFFFFF;
+}
+
+#closebtn {
+  position: absolute;
+  top: 30px;
+  left: 1450px;
+  color: #232124;
+  cursor: pointer;
+}
+
+#unique {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 1180px;
+  background-color: #FFFFFF;
+  height: 140px;
+  width: 180px;
+  border-radius: 5px;
+}
+
+#unique2 {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 1270px;
+  background-color: #FFFFFF;
+  height: 170px;
+  width: 180px;
+  border-radius: 5px;
+}
+
+.name {
+  margin-top: 15px;
+  margin-left: 13px;
+  display: block;
+  background-color: #010101;
+  color: #FFFFFF; 
+}
+
+.submit2 {
+  margin-top: 7px;
+  margin-left: 50px;
+  background-color: #F47E3E;
+}
+
+#login {
+  cursor: pointer;
 }
