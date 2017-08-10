@@ -368,7 +368,7 @@ a {
 }
 
 #jumbotron2 {
-  height: 810px;
+  height: 900px;
   background-image: url("../img/mh2.png");
 }
 
@@ -552,12 +552,12 @@ a {
 }
 
 #jumbotron3 {
-  height: 810px;
+  height: 900px;
   background-image: url("../img/parse1.jpg");
 }
 
 #jumbotron4 {
-  height: 810px;
+  height: 900px;
   background-image: url("../img/woke1.jpg");
 }
 }
@@ -590,4 +590,27 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.info2 {
+  position: absolute;
+  top: 825px;
+  left: 150px;
+  color: #BEBEBE;
+}
+
+.social-icons2 {
+  position: absolute;
+  top: 800px;
+  left: 1100px;
+  color:  #F47E3E;
+}
+
+.crosseffect3 {
+  position: absolute;
+  top: 850px;
+  left: 380px;
+  height: 5px;
+  width: 730px;
+  background-color: #FFFFFF
 }

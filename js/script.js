@@ -48,7 +48,7 @@ $(document).ready(function() {
 		var userAddress = $("input#address").val();
 		$("span#input1").text(userName);
 		$("span#input2").text(userAddress);
-		$("#replace").show();
+		$("#replace").slideToggle();
 		event.preventDefault()
 	});
 
