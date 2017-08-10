@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <!--This meta tag is for device responsiveness-->
     <meta nanme="viewport" content="width=device=width, initial-scale=1.0">
-    <title>GAMER HQ</title> 
+    <title>ACTION</title> 
 
     <!--Googel fonts-->
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!--custom stylesheet-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
 
 
      <!--javascript--><!--putting script files down here to make the website appear to be loading faster because js is responsible for fuctionality-->
@@ -34,5 +34,104 @@
   </head>
 
   <body>
+    <!--navbar-->
+    <div class="nav">
+      <nav class="navbar transparent navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-text pull-left"><li class="navbar-brand text-muted" href="index.html">PAYMENT</li></div>
+          <div class="navbar-text pull-left"><li class="navbar-brand text-muted" href="index.html">ABOUT</li></div>
+          <div class="navbar-text pull-left"><li class="navbar-brand text-muted" href="index.html">SUPPORT</li></div>
+          <div class="navbar-text pull-right" id="login"><li class="navbar-brand text-muted" href="index.html">LOGIN</li></div>
+          <div class="navbar-text pull-right"><button class="btn" id="btn">SIGN UP</button></div>
+        </div>
+      </nav>
+    </div> 
+     <!--LOGIN form-->
+        <div id="unique">
+          <form>
+            <input type="text" value="Email Address" class="name">
+            <input type="text" value="Username" class="name">
+            <input type="submit" value="LOGIN"  class="btn submit2">
+          </form>
+        </div>
+        <!--sign up form-->
+        <div id="unique2">
+          <form>
+            <input type="text" value="Name" class="name">
+            <input type="text" value="Username" class="name">
+            <input type="text" value="Email Address" class="name">
+            <input type="submit" value="SIGN UP"  class="btn submit2">
+          </form>
+        </div>  
+
+    <!--jumbotron-->  
+    <div class="jumbotron" id="jumbotron2">
+      <div id="">
+        <div id="">
+          <h2 class="color text-center" id="heading">ACTION COLLECTION</h2>
+          <div id="crosseffect2">
+          </div>
+          <div id="row2">
+            <div class="col-md-8" id="col8height">
+              <div id="first">
+                  <img src="../img/mh1.jpg" alt="image of a video game poster" height="360px" width="320px">
+              </div>
+              <div id="second">
+                  <img src="../img/mh5.png" alt="image of video game poster" height="360px" width="320px">
+              </div>
+              <div id="third">
+                  <img src="../img/mh3.jpg" alt="image of a video game poster" height="360px" width="320px">
+              </div>
+            </div>
+          </div>
+          <div id="button12">
+            <p class="text-center pcolor">1Million+ Orders!</p>
+            <!--button to show overlay contents-->
+            <button class="btn" id="btn2" onclick="openNav()">ORDER</button>
+          </div>
+          <div id="button22">
+            <p class="text-center pcolor">5Million+ Orders!</p>
+            <!--button to show overlay contents-->
+            <button class="btn" id="btn2" onclick="openNav()">ORDER</button>
+          </div>
+          <div id="button32">
+            <p class="text-center pcolor">2.5Million+ Orders!</p>
+            <!--button to show overlay contents-->
+            <button class="btn" id="btn2" onclick="openNav()">ORDER</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--hover effect-->
+    <!--Overlay navigation-->
+
+        <!--the overlay-->
+        <div class="overlay" id="myNav">
+          <!--button to close the overlay navigation-->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="closeoverlay">&times;</a>
+          <!--overlay content-->
+          <div class="overlay-content">
+            <!--form-->
+            <div id="orderform">
+              <form id="formofform">
+                <h3 id="order">ORDER DETAILS</h3>
+                <input type="text" value="Email Address" class="field">
+                <input type="text" value="Full name" class="field" id="fullname">
+                <input type="text" value="Address" class="field" id="address">
+                <input type="submit" value="ORDER"  class="btn" id="formbtn">
+              </form>
+            </div>
+            <!--confirmation message-->
+            <div id="replace">
+              <p id="showhide">Thank you for odering with Gamer Hq <span id="input1"></span> the game will be delivered to your address <span id="input2"></span>!</p>
+              <button class="btn" id="change">CHANGE ORDER</button>
+            </div>  
+          </div>
+        </div>
+
+    <!--javascript-->
+    <script src="../js/script.js"></script>
   </body>
 </html>

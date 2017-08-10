@@ -1,5 +1,18 @@
 //custom js file
 
+//backend 
+
+//open
+function openNav() {
+	//$("div.overlay-content").show();
+	document.getElementById("myNav").style.height = "100%";
+};
+
+//close
+function closeNav() {
+	document.getElementById("myNav").style.height = "0%";
+}
+
 $(document).ready(function() {
 	$("input#submit").click(function(event) {
     
@@ -27,5 +40,20 @@ $(document).ready(function() {
 	$("div#login").click(function() {
 		$("div#unique").slideToggle();
 		$("div#unique2").hide();
-	});	
+	});
+
+	//when you fill order form and click button 
+	$("input#formbtn").click(function(event) {
+		var userName = $("input#fullname").val();
+		var userAddress = $("input#address").val();
+		$("span#input1").text(userName);
+		$("span#input2").text(userAddress);
+		$("#replace").show();
+		event.preventDefault()
+	});
+
+	//Change order
+	$("#change").click(function() {
+		$("#replace").hide();
+	});
 });
