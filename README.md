@@ -6,6 +6,10 @@ Neville Oronni
 ## DESCRIPTION
 This is an online store for gamer hq a website that sell latest video games.
 
+## INSTALLATION AND USE 
+* Clone the repository onto your local machine
+* open index.html file using your browser
+
 ## TECH USED
 * Htm
 * css
